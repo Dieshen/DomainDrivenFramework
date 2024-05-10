@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainDrivenFramework", "DomainDrivenFramework\DomainDrivenFramework.csproj", "{563CC958-D274-4807-B45C-6054C01BC54C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainDrivenFramework", "src\DomainDrivenFramework.csproj", "{938820D5-6E4A-4881-B7C8-2B7ABEDBBF21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_SolutionItems", "_SolutionItems", "{5C7D2594-84EC-4E6A-8F97-8550EFB76756}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{563CC958-D274-4807-B45C-6054C01BC54C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{563CC958-D274-4807-B45C-6054C01BC54C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{563CC958-D274-4807-B45C-6054C01BC54C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{563CC958-D274-4807-B45C-6054C01BC54C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{938820D5-6E4A-4881-B7C8-2B7ABEDBBF21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938820D5-6E4A-4881-B7C8-2B7ABEDBBF21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938820D5-6E4A-4881-B7C8-2B7ABEDBBF21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938820D5-6E4A-4881-B7C8-2B7ABEDBBF21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
