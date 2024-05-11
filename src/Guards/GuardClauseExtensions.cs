@@ -1,6 +1,6 @@
 ﻿using DomainDrivenFramework.Exceptions;
 
-namespace Coyotl.Core.Abstractions.Guards
+namespace DomainDrivenFramework.Guards
 {
     public static partial class GuardClauseExtensions
     {

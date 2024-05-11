@@ -1,5 +1,4 @@
-﻿using Coyotl.Core.Abstractions.Guards;
-using DomainDrivenFramework.Guards;
+﻿using DomainDrivenFramework.Guards;
 using System.Text.RegularExpressions;
 
 namespace DomainDrivenFramework.ValueObjects
